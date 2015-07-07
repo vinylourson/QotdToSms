@@ -30,6 +30,7 @@ or
 The Python version *might* be portable to any system that can run Python and fortune, though it will need to be the 3.4.4 version or higher.
 
 As for the bash version, the fortunes package and its local variants will be needed too.
+Also, the script in its actual form is to work only on Debian and derivatives distributions as it checks with the apt tool if Python3 is installed. More portability to come in the near future.
 
 
 ## Conclusion
