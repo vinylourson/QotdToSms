@@ -27,15 +27,13 @@ or
 
 ### Python Version (QotdToSms.py)
 
-The Python version *might* be portable to any system that can run Python and fortune, though it will need to be the 3.4.4 version or higher.
+The Python version *might* be portable to any system that can run Python3 (3.4.x, maybe older versions but not sure). 
 
 As for the bash version, the fortunes package and its local variants will be needed too.
-Also, the script in its actual form is to work only on Debian and derivatives distributions as it checks with the apt tool if Python3 is installed. More portability to come in the near future.
-
 
 ## Conclusion
 
-Of course, the script can be modified (according to the [GPLv3 license](https://www.gnu.org/licenses/gpl.html)) to fit your needs, it is up to you and your imagination.
+Of course, the script can be modified (according to the [GPLv3 license](https://www.gnu.org/licenses/gpl.html)) to fit your needs and redistributed, it is up to you and your imagination.
 
 
 *That's all folks!*
