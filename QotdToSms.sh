@@ -7,9 +7,9 @@
 # dans l'option "Notification par sms"
 
 # on limite la fortune à 120 caractère pour pouvoir tenir dans un sms
-fortunefr=`fortune -n120 -s fr`
+fortunefr=`/usr/bin/fortune -n120 -s -u fr`
 # on encode la fortune au format URL 
-textpercent=`curl -s -o /dev/null -w %{url_effective} --get --data-urlencode "$fortunefr" ""`
+textpercent=`/usr/bin/curl -s -o /dev/null -w %{url_effective} --get --data-urlencode "$fortunefr" ""`
 # variables à remplir avec les identifiants récupérés sur http://mobile.free.fr
 user=
 pass=
