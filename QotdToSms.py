@@ -15,7 +15,7 @@ import ssl
 # with your own credentials
 identifiant = str('xxxx')
 mdp = str('xxxx')
-apifree = 'https://smsapi.free-mobile.fr/sendmsg?user=' + identifiant + '&pass=' + mdp + '&msg=' + str(quote(subprocess.check_output(["/usr/bin/fortune", "-n120", "-s", "fr"])))
+apifree = 'https://smsapi.free-mobile.fr/sendmsg?user=' + identifiant + '&pass=' + mdp + '&msg=' + str(quote(subprocess.check_output(["/usr/bin/fortune", "-n120", "-s", "-u", "fr"])))
 
 # If Python 3.4.4, uncomment the line below
 # urlopen(apifree, context=ssl._create_unverified_context())
